@@ -2,7 +2,7 @@ export const config = {
   port: process.env.PORT || 5001,
   nodeEnv: process.env.NODE_ENV || "development",
   jwtSecret: process.env.JWT_SECRET || 'user-management-secret-key',
-  corsOrigin: process.env.CORS_ORIGIN || "http://localhost:3004",
+  corsOrigin: process.env.CORS_ORIGIN || "http://localhost:3006",
 };
 
 // Log configuration on startup
